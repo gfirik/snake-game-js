@@ -116,6 +116,14 @@ h2 {
   display: none;
 }
 
+a {
+  margin-top: 5vh;
+  text-decoration: none;
+  color: darkslategray;
+  font-size: 18px;
+  font-weight: bold;
+}
+
 @media only screen and (max-width: 600px) {
   .keyContainer {
     display: -webkit-box;

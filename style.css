@@ -1,0 +1,126 @@
+* {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  width: 90%;
+  margin: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background: -webkit-gradient(linear, left top, right top, from(#ede574), to(#e1f5c4));
+  background: linear-gradient(to right, #ede574, #e1f5c4);
+  font-size: 15px;
+  text-align: center;
+}
+
+body h1 {
+  color: #b13e3e;
+}
+
+body .start {
+  -webkit-box-shadow: inset 0px 1px 0px 0px #a4e271;
+          box-shadow: inset 0px 1px 0px 0px #a4e271;
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(5%, #89c403), to(#77a809));
+  background: linear-gradient(to bottom, #89c403 5%, #77a809 100%);
+  background-color: #89c403;
+  border-radius: 6px;
+  border: 1px solid #74b807;
+  display: inline-block;
+  cursor: pointer;
+  color: #ffffff;
+  font-weight: bold;
+  padding: 6px 24px;
+  text-decoration: none;
+  text-shadow: 0px 1px 0px #528009;
+}
+
+body .start:hover {
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(5%, #77a809), to(#89c403));
+  background: linear-gradient(to bottom, #77a809 5%, #89c403 100%);
+  background-color: #77a809;
+}
+
+body .start:active {
+  position: relative;
+  top: 1px;
+}
+
+body .score {
+  margin-top: 2vh;
+}
+
+.gameOver {
+  background-color: #741010;
+}
+
+.grid {
+  width: 300px;
+  height: 300px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  border: 10px solid #071a07;
+  margin-top: 2vh;
+}
+
+.grid div {
+  width: 30px;
+  height: 30px;
+}
+
+.snake {
+  background-color: #262692;
+}
+
+.apple {
+  background-color: #9c4a4a;
+}
+
+.keyContainer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 180px;
+  height: 180px;
+  margin: auto;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  display: none;
+}
+
+.keyContainer div {
+  width: 60px;
+  height: 60px;
+}
+
+.keyContainer div button {
+  height: 100%;
+  width: 100%;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+h2 {
+  color: #802c2c;
+  font-weight: 800;
+  display: none;
+}
+
+@media only screen and (max-width: 600px) {
+  .keyContainer {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+}
+/*# sourceMappingURL=style.css.map */
